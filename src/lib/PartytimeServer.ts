@@ -126,7 +126,7 @@ export class PartytimeServer {
   }
 
   /**
-   *
+   * Callback for when the server starts listening
    */
   listenCallback() {
     console.log(`🚀 Server listening on port ${this.port}`)
