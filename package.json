@@ -1,0 +1,35 @@
+{
+  "name": "partytime-server",
+  "version": "1.0.0",
+  "description": "",
+  "packageManager": "pnpm@7.30.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node-esm ./src/server.ts",
+    "start": "ts-node-esm index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "l422y@l422y.com",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  },
+  "contributors": [
+    {
+      "email": "l422y@l422y.com",
+      "name": "L422Y",
+      "url": "https://l422y.com/"
+    }
+  ],
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.11",
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.3"
+  }
+}
