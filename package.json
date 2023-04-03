@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec ts-node-esm ./src/server.ts",
-    "start": "ts-node-esm index.js",
+    "start": "ts-node-esm ./src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "l422y@l422y.com",
